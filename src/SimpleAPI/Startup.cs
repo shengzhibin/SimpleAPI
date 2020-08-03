@@ -33,6 +33,10 @@ namespace SimpleAPI
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                
+            }
 
             app.UseMvc();
         }
